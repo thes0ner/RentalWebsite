@@ -1,0 +1,31 @@
+<div
+  class="alert alert-primary"
+  role="alert"
+  style="text-align: center; margin-top: 20px"
+>
+  CARS
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Brand</th>
+            <th scope="col">Color</th>
+            <th scope="col">Model</th>
+            <th scope="col">Year</th>
+            <th scope="col">Mileage</th>
+            <th scope="col">Daily Price</th>
+            <th scope="col">Image</th>
+            <th scope="col">Description</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let car of cars">
+        <th scope="row">{{ car.brandName}}</th>
+        <td>{{car.colorName}}</td>
+        <td>{{car.model}}</td>
+        <td>{{car.year}}</td>
+        <td>{{car.mileage}}</td>
+        <td>{{car.dailyPrice}}</td>
+        <td>{{car.imagePath}}</td>
+        <td>{{car.description}}</td>
+    </tr>
+</table>
