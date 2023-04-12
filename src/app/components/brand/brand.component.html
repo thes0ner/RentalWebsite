@@ -5,6 +5,19 @@
 >
   BRANDS
 </div>
+<ul class="list-group">
+  <li *ngFor="let brand of brands" class="list-group-item">{{brand.name}}</li>
+</ul>
+
+
+
+<!-- <div
+  class="alert alert-primary"
+  role="alert"
+  style="text-align: center; margin-top: 20px"
+>
+  BRANDS
+</div>
 <table class="table">
     <thead>
         <tr>
@@ -22,4 +35,6 @@
         <td>{{brand.foundedYear}}</td>
         <td>{{brand.country}}</td>
     </tr>
-</table>
+</table> -->
+
+
