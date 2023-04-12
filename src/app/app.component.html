@@ -1,15 +1,19 @@
 <div>
-    <app-navi></app-navi>
-    <div class="row">
-        <div class="col-md-5">
-            <app-brand></app-brand>
-            <app-color></app-color>
-            <app-rental></app-rental>
-        </div>
-        <div class="col-md-7">
-            <app-car></app-car>
-            <app-customer></app-customer>
-        </div>
+  <app-navi></app-navi>
+  <div class="row">
+    <div class="col-md-5">
+      <app-brand></app-brand>
+      <!-- <app-color></app-color> -->
+      <!-- <app-rental></app-rental> -->
     </div>
-    <router-outlet></router-outlet>
+    <div class="col-md-7">
+      <!-- <app-car></app-car> -->
+      <!-- <app-customer></app-customer> -->
+
+      <!--
+        This area takes which route would be seen by default
+      -->
+      <router-outlet></router-outlet>
+    </div>
+  </div>
 </div>

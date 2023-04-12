@@ -1,0 +1,8 @@
+.list-group-item {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* .list-group-item {
+    background-color: #073b4c;
+    color:white;
+  } */
